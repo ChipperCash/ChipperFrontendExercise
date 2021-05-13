@@ -3,17 +3,10 @@ import {useDispatch} from 'react-redux';
 import {ThunkAction} from 'redux-thunk';
 
 import rootReducer, {RootState} from './root-reducer';
-
+import logger from 'redux-logger';
 const store = configureStore({
   reducer: rootReducer,
-  middleware: getDefaultMiddleware => {
-    const middleware = getDefaultMiddleware();
-    if (__DEV__) {
-      const {logger} = require('redux-logger');
-      return middleware.concat(logger);
-    }
-    return middleware;
-  },
+  middleware: getDefaultMiddleware => getDefaultMiddleware().concat(logger),
 });
 
 type AppDispatch = typeof store.dispatch;

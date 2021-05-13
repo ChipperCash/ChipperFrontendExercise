@@ -1,8 +1,8 @@
 import {combineReducers} from '@reduxjs/toolkit';
-import {counterSliceReducer} from '../features';
+import {pricesSliceReducer} from '../features';
 
 const rootReducer = combineReducers({
-  counter: counterSliceReducer,
+  prices: pricesSliceReducer,
 });
 
 export type RootState = ReturnType<typeof rootReducer>;
