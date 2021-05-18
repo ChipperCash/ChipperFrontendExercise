@@ -6,7 +6,7 @@ import {useAppDispatch, RootState} from '../../store';
 
 export const Prices = () => {
   const dispatch = useAppDispatch();
-  const prices = useSelector((state: RootState) => state.prices.data);
+  const prices = useSelector((state: RootState) => state.prices?.data);
   return (
     <View style={styles.container}>
       <Button
