@@ -28,7 +28,7 @@ async function get<T>(
   path: string,
   // args: RequestInit = {method: 'get'},
 ): Promise<HttpResponse<T>> {
-  return await http<T>(`${BASE_URL}${path}`);
+  return http<T>(`${BASE_URL}${path}`);
   // If we need args you can use the below, but causes require cycle
   // return await http<T>(new Request(`${BASE_URL}${path}`, args));
 }
@@ -38,7 +38,7 @@ export type History = [number, number, number, number, number, number][];
 
 // Docs: https://docs.pro.coinbase.com/#get-historic-rates
 // Returns 60 second intervals for 300 records
-const history = async () => await get<History>('/products/BTC-USD/candles');
+const history = async () => get<History>('/products/BTC-USD/candles');
 
 export const api = {
   history,
