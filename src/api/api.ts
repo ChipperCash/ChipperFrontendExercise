@@ -33,12 +33,20 @@ async function get<T>(
   // return await http<T>(new Request(`${BASE_URL}${path}`, args));
 }
 
-//          Values:   [time,   low,    high,   open,   close,  volume]
-export type History = [number, number, number, number, number, number][];
+type HistoricalTradeSide = 'buy' | 'sell';
 
-// Docs: https://docs.pro.coinbase.com/#get-historic-rates
-// Returns 60 second intervals for 300 records
-const history = async () => get<History>('/products/BTC-USD/candles');
+export type HistoricalTrade = {
+  time: string;
+  trade_id: number;
+  price: string;
+  size: string;
+  side: HistoricalTradeSide;
+};
+
+export type History = HistoricalTrade[];
+
+// Docs: https://docs.pro.coinbase.com/#get-trades
+const history = async () => get<History>('/products/BTC-USD/trades');
 
 export const api = {
   history,
