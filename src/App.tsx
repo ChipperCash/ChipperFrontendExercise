@@ -7,7 +7,7 @@ import {
   Image,
   View,
 } from 'react-native';
-import {Prices} from './features';
+import {Trades} from './features';
 
 declare const global: {HermesInternal: null | {}};
 
@@ -24,7 +24,7 @@ const App = () => {
           If you see this you are ready for your interview
         </Text>
         <Text style={styles.body}>🚀 See you soon 🚀</Text>
-        <Prices />
+        <Trades />
       </View>
     </SafeAreaView>
   );

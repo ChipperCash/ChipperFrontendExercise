@@ -1,8 +1,8 @@
 import {combineReducers} from '@reduxjs/toolkit';
-import {pricesSliceReducer} from '../features';
+import {tradesSliceReducer} from '../features';
 
 const rootReducer = combineReducers({
-  prices: pricesSliceReducer,
+  trades: tradesSliceReducer,
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

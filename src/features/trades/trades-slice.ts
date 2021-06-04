@@ -1,7 +1,7 @@
 import {createSlice, createAsyncThunk} from '@reduxjs/toolkit';
 import {api, History} from '../../api';
 
-interface PricesState {
+interface TradesState {
   data: History | undefined;
   status: 'idle' | 'loading' | 'succeeded' | 'failed';
   error: any;
@@ -11,33 +11,33 @@ const initialState = {
   data: undefined,
   status: 'idle',
   error: null,
-} as PricesState;
+} as TradesState;
 
-export const fetchPriceHistory = createAsyncThunk(
-  'prices/fetchHistory',
+export const fetchTradeHistory = createAsyncThunk(
+  'trades/fetchHistory',
   async () => {
     const response = await api.history();
     return response.parsedBody as History;
   },
 );
 
-const pricesSlice = createSlice({
-  name: 'price',
+const tradesSlice = createSlice({
+  name: 'trade',
   initialState,
   reducers: {},
   extraReducers: builder => {
-    builder.addCase(fetchPriceHistory.pending, state => {
+    builder.addCase(fetchTradeHistory.pending, state => {
       state.status = 'loading';
     });
-    builder.addCase(fetchPriceHistory.fulfilled, (state, action) => {
+    builder.addCase(fetchTradeHistory.fulfilled, (state, action) => {
       state.status = 'succeeded';
       state.data = action.payload || [];
     });
-    builder.addCase(fetchPriceHistory.rejected, (state, action) => {
+    builder.addCase(fetchTradeHistory.rejected, (state, action) => {
       state.status = 'failed';
       state.error = action.payload;
     });
   },
 });
 
-export const pricesSliceReducer = pricesSlice.reducer;
+export const tradesSliceReducer = tradesSlice.reducer;
