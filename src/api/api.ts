@@ -1,4 +1,4 @@
-const BASE_URL = 'https://api.pro.coinbase.com';
+const BASE_URL = 'https://api.exchange.coinbase.com';
 
 /*
  ** Helpers Start **
@@ -45,7 +45,10 @@ export type HistoricalTrade = {
 
 export type History = HistoricalTrade[];
 
-// Docs: https://docs.pro.coinbase.com/#get-trades
+/**
+ * Docs
+ * https://docs.cloud.coinbase.com/exchange/reference/exchangerestapi_getproducttrades
+ */
 const history = async () => get<History>('/products/BTC-USD/trades');
 
 export const api = {
