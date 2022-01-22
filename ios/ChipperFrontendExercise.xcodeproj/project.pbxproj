@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004DADDB2293E5E0CA040639 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D0BB4AB1C999238AF01AE2 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a */; };
 		00E356F31AD99517003FC87E /* ChipperFrontendExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ChipperFrontendExerciseTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		94BA3D4457AB2333E8904924 /* libPods-ChipperFrontendExercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB384C742512229C40AE6F89 /* libPods-ChipperFrontendExercise.a */; };
-		BC7EE23FD57CA53985D60688 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D40CF54E34BD33EBA8B8F432 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a */; };
+		BA94F51A0030D1976ADFC9DE /* libPods-ChipperFrontendExercise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D4FDC42C42AAE1F12AB2A1 /* libPods-ChipperFrontendExercise.a */; };
+		ED0858CC247AF52600FF9762 /* ChipperFrontendExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0858CB247AF52600FF9762 /* ChipperFrontendExercise.swift */; };
+		ED0858CD247AF52600FF9762 /* ChipperFrontendExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0858CB247AF52600FF9762 /* ChipperFrontendExercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +32,23 @@
 		00E356EE1AD99517003FC87E /* ChipperFrontendExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipperFrontendExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ChipperFrontendExerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChipperFrontendExerciseTests.m; sourceTree = "<group>"; };
+		12D4FDC42C42AAE1F12AB2A1 /* libPods-ChipperFrontendExercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChipperFrontendExercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* ChipperFrontendExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipperFrontendExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ChipperFrontendExercise/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ChipperFrontendExercise/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ChipperFrontendExercise/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ChipperFrontendExercise/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ChipperFrontendExercise/main.m; sourceTree = "<group>"; };
-		53657966552BD28ACDF292F5 /* Pods-ChipperFrontendExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipperFrontendExercise.debug.xcconfig"; path = "Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise.debug.xcconfig"; sourceTree = "<group>"; };
+		1B02401237A6DC5E019B99EF /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig"; path = "Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6C7484648E3B0A6624B41D /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig"; path = "Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig"; sourceTree = "<group>"; };
+		54800AF297DFDBD23FD7561A /* Pods-ChipperFrontendExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipperFrontendExercise.debug.xcconfig"; path = "Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ChipperFrontendExercise/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8A80F44A32A886BA8D10B208 /* Pods-ChipperFrontendExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipperFrontendExercise.release.xcconfig"; path = "Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise.release.xcconfig"; sourceTree = "<group>"; };
-		A4857663D71B31D24346C2B1 /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig"; path = "Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig"; sourceTree = "<group>"; };
-		BB384C742512229C40AE6F89 /* libPods-ChipperFrontendExercise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChipperFrontendExercise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D40CF54E34BD33EBA8B8F432 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D0BB4AB1C999238AF01AE2 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B2AA3383EB53B8129CB18F /* Pods-ChipperFrontendExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipperFrontendExercise.release.xcconfig"; path = "Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise.release.xcconfig"; sourceTree = "<group>"; };
+		ED0858C7247AF52600FF9762 /* ChipperFrontendExercise-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChipperFrontendExercise-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED0858C8247AF52600FF9762 /* ChipperFrontendExerciseTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChipperFrontendExerciseTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED0858CB247AF52600FF9762 /* ChipperFrontendExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipperFrontendExercise.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F202AECA1374EC21F95525F8 /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig"; path = "Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC7EE23FD57CA53985D60688 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a in Frameworks */,
+				004DADDB2293E5E0CA040639 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94BA3D4457AB2333E8904924 /* libPods-ChipperFrontendExercise.a in Frameworks */,
+				BA94F51A0030D1976ADFC9DE /* libPods-ChipperFrontendExercise.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,24 +101,12 @@
 			name = ChipperFrontendExercise;
 			sourceTree = "<group>";
 		};
-		2B34EFAA753AFBCA65F77D75 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				53657966552BD28ACDF292F5 /* Pods-ChipperFrontendExercise.debug.xcconfig */,
-				8A80F44A32A886BA8D10B208 /* Pods-ChipperFrontendExercise.release.xcconfig */,
-				F202AECA1374EC21F95525F8 /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig */,
-				A4857663D71B31D24346C2B1 /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				BB384C742512229C40AE6F89 /* libPods-ChipperFrontendExercise.a */,
-				D40CF54E34BD33EBA8B8F432 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a */,
+				12D4FDC42C42AAE1F12AB2A1 /* libPods-ChipperFrontendExercise.a */,
+				D2D0BB4AB1C999238AF01AE2 /* libPods-ChipperFrontendExercise-ChipperFrontendExerciseTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,12 +121,15 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				ED0858CB247AF52600FF9762 /* ChipperFrontendExercise.swift */,
 				13B07FAE1A68108700A75B9A /* ChipperFrontendExercise */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ChipperFrontendExerciseTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				2B34EFAA753AFBCA65F77D75 /* Pods */,
+				ED0858C7247AF52600FF9762 /* ChipperFrontendExercise-Bridging-Header.h */,
+				ED0858C8247AF52600FF9762 /* ChipperFrontendExerciseTests-Bridging-Header.h */,
+				9956ACE2860193FC02E691FD /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +145,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9956ACE2860193FC02E691FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54800AF297DFDBD23FD7561A /* Pods-ChipperFrontendExercise.debug.xcconfig */,
+				E3B2AA3383EB53B8129CB18F /* Pods-ChipperFrontendExercise.release.xcconfig */,
+				1B02401237A6DC5E019B99EF /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig */,
+				3B6C7484648E3B0A6624B41D /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,12 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ChipperFrontendExerciseTests" */;
 			buildPhases = (
-				921A2A55116596A67E7A489A /* [CP] Check Pods Manifest.lock */,
+				02F9A785D27776139941371C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5901777BE2A42C92FE3DCD66 /* [CP] Embed Pods Frameworks */,
-				D2016DC4F20D20BF9A24C350 /* [CP] Copy Pods Resources */,
+				32CF9662A8EC489BC198C8AF /* [CP] Embed Pods Frameworks */,
+				0153C60B47313594615D0B86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +184,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ChipperFrontendExercise" */;
 			buildPhases = (
-				8824C7318105277397691901 /* [CP] Check Pods Manifest.lock */,
+				0DE3D2119BBBD849DBB62042 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				F4C9CA838E29E8877D625BB1 /* [CP] Embed Pods Frameworks */,
-				DCF02DBA68E22138E80FC938 /* [CP] Copy Pods Resources */,
+				A92DFDA4E81C1DE63A6E582A /* [CP] Embed Pods Frameworks */,
+				BD25BEF4901CCA91FC30CD3C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,46 +272,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		5901777BE2A42C92FE3DCD66 /* [CP] Embed Pods Frameworks */ = {
+		0153C60B47313594615D0B86 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8824C7318105277397691901 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ChipperFrontendExercise-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		921A2A55116596A67E7A489A /* [CP] Check Pods Manifest.lock */ = {
+		02F9A785D27776139941371C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,41 +311,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2016DC4F20D20BF9A24C350 /* [CP] Copy Pods Resources */ = {
+		0DE3D2119BBBD849DBB62042 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChipperFrontendExercise-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCF02DBA68E22138E80FC938 /* [CP] Copy Pods Resources */ = {
+		32CF9662A8EC489BC198C8AF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests/Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F4C9CA838E29E8877D625BB1 /* [CP] Embed Pods Frameworks */ = {
+		A92DFDA4E81C1DE63A6E582A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,6 +365,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD25BEF4901CCA91FC30CD3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChipperFrontendExercise/Pods-ChipperFrontendExercise-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -404,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* ChipperFrontendExerciseTests.m in Sources */,
+				ED0858CD247AF52600FF9762 /* ChipperFrontendExercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +421,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				ED0858CC247AF52600FF9762 /* ChipperFrontendExercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,8 +438,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F202AECA1374EC21F95525F8 /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig */;
+			baseConfigurationReference = 1B02401237A6DC5E019B99EF /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -450,14 +460,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChipperFrontendExerciseTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChipperFrontendExercise.app/ChipperFrontendExercise";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4857663D71B31D24346C2B1 /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig */;
+			baseConfigurationReference = 3B6C7484648E3B0A6624B41D /* Pods-ChipperFrontendExercise-ChipperFrontendExerciseTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = ChipperFrontendExerciseTests/Info.plist;
@@ -474,13 +488,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChipperFrontendExerciseTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChipperFrontendExercise.app/ChipperFrontendExercise";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53657966552BD28ACDF292F5 /* Pods-ChipperFrontendExercise.debug.xcconfig */;
+			baseConfigurationReference = 54800AF297DFDBD23FD7561A /* Pods-ChipperFrontendExercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -498,6 +514,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ChipperFrontendExercise;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChipperFrontendExercise-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -506,7 +523,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A80F44A32A886BA8D10B208 /* Pods-ChipperFrontendExercise.release.xcconfig */;
+			baseConfigurationReference = E3B2AA3383EB53B8129CB18F /* Pods-ChipperFrontendExercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -523,6 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = ChipperFrontendExercise;
+				SWIFT_OBJC_BRIDGING_HEADER = "ChipperFrontendExercise-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
